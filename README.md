@@ -34,3 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Troubleshooting: Images from /public not loading
+
+If a photo (for example the adult classes slide) does not appear:
+
+- Place the image in the project's public folder:
+  - /public/adult-classes.jpg
+  - Full path on your machine: /Users/adityaverma/Documents/project/gymnastics-academy/public/adult-classes.jpg
+
+- Check exact filename and extension (case-sensitive). Common issues:
+  - adult-classes.jpg vs Adult-Classes.JPG vs adult-classes.jpeg
+  - Make sure the file extension matches what Classes.js references (currently: /adult-classes.jpg).
+
+- Restart the dev server after adding files to public:
+  - npm run dev
+
+- Clear browser cache or open an incognito window to avoid cached 404s.
+
+- Use browser devtools → Network to confirm the image URL (e.g., http://localhost:3000/adult-classes.jpg) and check for 404 or other errors.
