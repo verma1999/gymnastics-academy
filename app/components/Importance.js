@@ -45,7 +45,7 @@ const Importance = () => {
               color: '#000000',
             }}
           >
-            Why Gymnastics Matters
+            Why Gymnastics is for Everyone
           </Typography>
           <Typography
             variant="h6"
@@ -59,7 +59,7 @@ const Importance = () => {
               lineHeight: 1.8,
             }}
           >
-            Looking to give your child more than just exercise? Gymnastics develops physical strength, mental resilience, and life skills that will benefit them for years to come. Discover why thousands of parents trust us.
+            Build strength, confidence, and lifelong skills in a safe and fun environment. From kids to adults, everyone gets the chance to grow, move, and shine.
           </Typography>
         </motion.div>
 
@@ -134,12 +134,10 @@ const Importance = () => {
             }}
           >
             <Typography variant="h5" sx={{ fontWeight: 700, mb: 2 }}>
-              Start Your Gymnastics Journey Today!
+              Ready to start your gymnastics journey?
             </Typography>
             <Typography variant="body1" sx={{ mb: 3, color: '#CCCCCC', lineHeight: 1.8 }}>
-              Whether you're 3 years old or an adult, it's never too early or too late to discover 
-              the transformative power of gymnastics. Join our community and experience the difference 
-              expert training makes.
+              Gymnastics programs for all age groups, designed to improve strength, coordination, flexibility, and confidence in a safe training space.
             </Typography>
             <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center', flexWrap: 'wrap' }}>
               <Box>

@@ -119,7 +119,7 @@ const Hero = () => {
               }}
             >
               Build strength, confidence, and lifelong skills in a safe, fun environment. 
-              From toddlers to adults, every child deserves to shine.
+              From toddlers to adults, everyone deserves to shine.
             </Typography>
 
             <motion.div
@@ -149,7 +149,7 @@ const Hero = () => {
                 mb: 3,
               }}
             >
-              Ready to start your child's gymnastics journey?
+              Ready to start your gymnastics journey?
             </Typography>
             <Button
               variant="contained"
